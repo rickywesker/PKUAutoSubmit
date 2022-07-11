@@ -239,7 +239,7 @@ if __name__ == '__main__':
 
     args_public = copy.deepcopy(args)
     args_public.password = 'xxxxxxxx'
-    print('Arguments: {}'.format(args_public))
+    print(f'Arguments: {args_public}')
     print('Driver Launching...')
 
     # driver = Firefox()
